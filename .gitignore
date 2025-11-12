@@ -1,0 +1,32 @@
+# Firebase credentials (keep secure!)
+firebase_credentials.json
+*.json
+!requirements*.txt
+!package.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Dash
+.DS_Store
+*.log
+
+# Data files
+sensor_data.json
+*.csv
+!requirements*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
